@@ -1,0 +1,174 @@
+/*Menu*/
+.topheader {
+  position: fixed;
+  background-color: grey;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0 20px;
+}
+
+.Menu-Horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.Menu-Horizontal li a {
+  text-decoration: none;
+  color: #555555;
+  display: block;
+  padding: 15px 20px;
+}
+
+.Menu-Horizontal li a:hover {
+  color: #e50914;
+}
+
+.Menu-Vertical {
+  display: none;
+  padding: 0;
+  position: absolute;
+  list-style: none;
+  background-color: #f9f9f9;
+}
+
+.Menu-Vertical2 {
+  display: none;
+  padding: 0;
+  position: absolute;
+  list-style: none;
+  background-color: #f9f9f9;
+}
+
+.Menu-Vertical3 {
+  display: none;
+  padding: 0;
+  position: absolute;
+  list-style: none;
+  background-color: #f9f9f9;
+}
+
+.Menu-Horizontal li a:hover {
+  color: red;
+}
+
+.Menu-Horizontal li:hover .Menu-Vertical {
+  display: block;
+}
+
+.Menu-Horizontal li:hover .Menu-Vertical2 {
+  display: block;
+}
+
+.Menu-Horizontal li:hover .Menu-Vertical3 {
+  display: block;
+}
+
+/*Seccion-Zykicks*/
+.seccion-zykicks {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
+.div-gral-zykicks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+.div-zykicks-texto {
+  flex: 1;
+}
+.div-zykicks-texto h2 {
+  color: #0d0d0d;
+  margin-bottom: 15px;
+}
+.div-zykicks-texto p {
+  color: #555555;
+  line-height: 1.6;
+  text-align: justify;
+}
+.div-zykicks-img {
+  flex: 1;
+  width: 100%;
+  max-width: 500px;
+}
+
+/*Seccion-Marcas*/
+.seccion-marcas {
+  padding: 60px 20px;
+  background-color: #ffffff;
+}
+.div-gral-marcas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.seccion-formulario {
+  background-color: #ffffff;
+  padding: 40px;
+  border: 3px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.div-cont-formulario {
+  background-color: rgba(160, 214, 235, 0.795);
+  padding: 30px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.campo {
+  background-color: beige;
+  padding: 15px;
+  border: 1px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.formulario label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: grey;
+}
+
+.formulario input[type="text"],
+.formulario select {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid red;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.lista-checkbox,
+.lista-radio {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  border: 1px;
+  background-color: darkslategray;
+}
+
+.formulario button {
+  background-color: skyblue;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+}
