@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>ZyKicks</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Pie.css" />
+    <link rel="stylesheet" href="login.css"/>
+    <link rel="stylesheet" href="menu_toggle.css"/>
+  </head>
+  
+  <body>
+    <!--Menu-->
+    <nav class="topheader">
+      <a href="" class="logo">
+        <img
+          height="70"
+          width="150"
+          src="imagen/vinilos-adhesivos-silueta-zapatilla-air-jordan.jpg"
+          alt=""
+        />
+      </a>
+       <!-- BOTÓN HAMBURGUESA -->
+
+   <button class="menu-toggle" aria-label="Abrir menú">
+    &#9776;
+
+    <!-- Ícono de hamburguesa -->
+   </button>
+
+   <ul class="Menu-Horizontal">
+        <li><a href="">ZyKicks</a></li>
+        <li>
+          <a href="">Marcas</a>
+          <ul class="Menu-Vertical">
+            <li><a href="">Adidas</a></li>
+            <li><a href="">Nike</a></li>
+            <li><a href="">Puma</a></li>
+            <li><a href="">Jordan</a></li>
+            <li><a href="">New Balance</a></li>
+            <li><a href="">Bape</a></li>
+          </ul>
+        </li>
+        <li></li>
+        <li>
+          <a href="">Hombres</a>
+          <ul class="Menu-Vertical2">
+            <li><a href="">Talla 7.5</a></li>
+            <li><a href="">Talla 8</a></li>
+            <li><a href="">Talla 8.5</a></li>
+            <li><a href="">Talla 9</a></li>
+            <li><a href="">Talla 9.5</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Mujeres</a>
+          <ul class="Menu-Vertical3">
+            <li><a href="">Talla 6.5</a></li>
+            <li><a href="">Talla 7</a></li>
+            <li><a href="">Talla 7.5</a></li>
+          </ul>
+        </li>
+        <li><a href="">Contactanos</a></li>
+        <li><a href="">Ayuda</a></li>
+      </ul>
+    </nav>
+
+    <!--Seccion ZyKicks-->
+    <section class="seccion-zykicks">
+      <div class="div-gral-zykicks">
+        <div class="div-zykicks-texto">
+          <h2>Seccion ZyKicks</h2>
+          <p>
+            En Zykicks, vivimos y respiramos la cultura sneaker. Somos una
+            empresa dedicada a la importación y venta de zapatillas exclusivas,
+            aquellas que marcan tendencia y definen el estilo urbano en cada
+            paso.
+          </p>
+          <p>
+            Nuestro objetivo es conectar a los amantes del streetwear con los
+            modelos más buscados del mundo: ediciones limitadas, colaboraciones
+            únicas y lanzamientos hype que no se encuentran en cualquier tienda.
+          </p>
+          <p>
+            Trabajamos directamente con proveedores y coleccionistas de
+            confianza a nivel internacional para garantizar autenticidad,
+            calidad y una experiencia de compra segura. Sabemos lo que significa
+            conseguir ese par soñado, y por eso cuidamos cada detalle: desde la
+            selección de productos hasta la entrega final.
+          </p>
+          <p>
+            Más que una tienda, somos una comunidad de sneakerheads,
+            coleccionistas y apasionados del estilo. Si te mueve la cultura
+            urbana y la exclusividad, estás en el lugar correcto.
+          </p>
+          <div class="img-container">
+            <img src="imagen/569b42f7d752369da0e06ccc7139b4a6.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Seccion Marcas-->
+    <section class="seccion-marcas">
+      <div class="div-gral-marcas">
+        <div class="div-marcas-texto"></div>
+        <h2>Marcas</h2>
+        <p>
+          En ZyKicks, trabajamos con las marcas más icónicas del mundo sneaker.
+          Cada una representa una forma distinta de vivir el estilo, la calle y
+          la autenticidad.
+        </p>
+        <p>
+          Desde los clásicos atemporales de Nike y Adidas, hasta la innovación
+          de New Balance, la esencia urbana de Puma, la leyenda de Jordan y la
+          exclusividad de Bape — reunimos lo mejor del hype global en un solo
+          lugar.
+        </p>
+        <p>
+          Nos apasiona ofrecerte modelos originales, ediciones limitadas y
+          colaboraciones únicas que definen la cultura del streetwear. Sabemos
+          que cada par cuenta una historia, y queremos que la tuya empiece con
+          nosotros.
+        </p>
+        <p>
+          ZyKicks no solo vende zapatillas, te conecta con el espíritu de las
+          marcas que cambiaron el juego.
+        </p>
+        <div class="div-marcas-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/VM0B49DCyIM?si=Xov3U-LAl8kP6ma9"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <section class = "seccion-formulario">
+      <div class = "div-cont-formulario">
+      <h2>Formulario de Envio</h2>
+      <p>Complete todos los campos</p>
+      <form class= "formulario">
+      <!--Input/label-->
+      <div class="campo">
+        <label for="nombre">Nombres Completos</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese sus nombres"></input>
+      </div>
+       <!--Lista despegable-->
+       <div class="campo">
+        <label for="nombre">Destino:</label>
+        <select id="pais" name="pais">
+          <option value="">seleccione un destino</option>
+          <option value="lima">Lima</option>
+          <option value="trujillo">Trujillo</option>
+          <option value="arequipa">Arequipa</option>
+          <option value="piura">Piura</option>
+          
+        </select>
+
+       </div>
+       <!--checkbox-->
+       <div class="campo">
+        <label>Intereses:</label>
+        <ul class="lista-checkbox">
+        <li><label><input type="checkbox"name="intereses" value="lanzamientos">Ultimo lanzamientos</label></li>
+        <li><label><input type="checkbox"name="intereses" value="streetwear">ferias streetwear</label></li>
+        <li><label><input type="checkbox"name="intereses" value="ventas">Lo mas vendido</label></li>
+        </ul>
+       </div>
+      <!--radio-->
+      <div class="campo">
+        <label>Sexo:</label>
+        <ul class="lista-radio">
+        <li><label><input type="radio"name="sexo" value="m">Masculino</label></li>
+        <li><label><input type="radio"name="sexo" value="f">Femenino</label></li>
+        </ul>
+      </div>
+      <button type="submit">Enviar Producto</button>
+
+      </form>
+      
+    </div>
+        
+        </section>
+        <section id="footer">
+          <footer class="footer">
+            <div class="footer-container">
+              <!-- Logo y nombre de sitio -->
+              <div class="footer-brand">
+                <img
+                  src="imagen/vinilos-adhesivos-silueta-zapatilla-air-jordan.jpg"
+                  alt="Logo"
+                  class="footer-logo"
+                />
+                <p>SENATI</p>
+                <small>© 2025 Todos los derechos reservados</small>
+              </div>
+      
+              <!-- Enlaces legales -->
+              <div class="footer-links">
+                <h4>Legal</h4>
+                <a href="/Documentos/3.politica-privacidad.pdf"
+                  >Política de Privacidad</a
+                >
+                <!-- Dentro de href llama a un documento pdf con la poltica-->
+                <a href="#">Términos y Condiciones</a>
+                <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+                <a href="imagen/archivopdf/obtenerDocumento.pdf">Protección de Datos</a>
+              </div>
+      
+              <!-- Redes sociales con íconos personalizados -->
+              <div class="footer-social">
+                <h4>Síguenos</h4>
+                <a href="#"
+                  ><img
+                    src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                    alt="Facebook"
+                    class="social-icon"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                    alt="Instagram"
+                    class="social-icon"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                    alt="LinkedIn"
+                    class="social-icon"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                    alt="Twitter"
+                    class="social-icon"
+                /></a>
+              </div>
+            </div>
+          </footer>
+        </section>
+  </body>
+
+</html>
